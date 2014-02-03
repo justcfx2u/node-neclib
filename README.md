@@ -9,6 +9,11 @@ Based on the protocol described in *ExternalControlManual-RS232LANX461SX551S_en.
 
 This was written for an internal project at my workplace. The full protocol is not -- and probably will never be --  implemented, simply because we don't need it. The basic framework (i.e., "the hard part") is done, though, and extending it should be trivial if you need additional functionality. You are encouraged to fork this project and add to it. This repository may not be actively maintained, but it is provided as a convenience to whoever may need a starting point for such a thing. I admit that a majority of the code handling and message structure is 'dirty' and inconsistent, but it currently serves its purpose.
 
+## Installation ##
+1. `git clone`
+2. `npm install`
+3. *Edit nec-minion.js to configure settings*
+4. `node nec-minion.js`
 
 ## Running ##
 
