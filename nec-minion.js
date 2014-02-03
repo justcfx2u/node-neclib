@@ -1,6 +1,5 @@
 var _ = require('lodash');
 var nec = require('./nec-lib');
-var express = require('express');
 var faye = require('faye');
 client = new faye.Client('http://127.0.0.1:9292/faye');
 
