@@ -1,0 +1,30 @@
+{
+  "name": "node-neclib",
+  "version": "0.0.1",
+  "description": "Control NEC commercial displays over Ethernet.",
+  "main": "nec-minion.js",
+  "dependencies": {
+    "faye": "~1.0.1",
+    "jackpot": "~0.0.6",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nec",
+    "commercial",
+    "display",
+    "industrial",
+    "tcp",
+    "wire",
+    "protocol",
+    "raw",
+    "pooling",
+    "command",
+    "control"
+  ],
+  "author": "H. Arnold Jones",
+  "license": "MIT"
+}
