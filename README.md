@@ -27,7 +27,7 @@ Set up your Faye secret and inventory list in nec-minion.js.
 
 ```
 NEC displays <- nec-lib.js <- nec-minion.js <- faye commands <- front-end
-NEC displays -> nec-lib.js <- nec-minion.js -> faye replies  -> front-end
+NEC displays -> nec-lib.js -> nec-minion.js -> faye replies  -> front-end
 ```
 
 ## Example on how to use from front-end ##
